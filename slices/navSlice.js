@@ -6,7 +6,7 @@ const initialState = {
   travelTimeInformation: null
 }
 
-export const navSLice = createSlice({
+export const navSlice = createSlice({
   name: 'nav',
   initialState,
   reducer: {
@@ -30,4 +30,4 @@ export const selectDestination = (state) => state.nav.destination
 export const selectTravelTimeInformation = (state) => 
   state.nav.travelTimeInformation
 
-export default navSLice.reducer
+export default navSlice.reducer
