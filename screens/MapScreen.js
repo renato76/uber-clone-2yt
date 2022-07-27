@@ -5,10 +5,10 @@ import Map from "./components/Map"
 import NavigateCard from "./components/NavigateCard"
 import RideOptionsCard from "./components/RideOptionsCard"
 import MapView from "react-native-maps"
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { createStackNavigator } from '@react-navigation/stack'
 
 const MapScreen = () => {
-  const Stack = createNativeStackNavigator()
+  const Stack = createStackNavigator()
 
   return (
     <View>
